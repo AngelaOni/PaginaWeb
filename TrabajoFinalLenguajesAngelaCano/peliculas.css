@@ -1,0 +1,106 @@
+.menu {
+    text-align: center;
+    background-color: rgba(80, 131, 189, 0.278);
+    border-radius: 25px;
+    position: sticky;
+    top: 0;
+    font-size: larger;
+    
+  z-index: 999999;
+  }
+  
+  
+  .logo {
+    width: 30px;
+  }
+  
+  a {
+    color: rgb(235, 111, 200);
+    text-shadow: 5px 5px 10px blue;
+  }
+  
+  body {
+    background-image: url(imagenes/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Lucida Sans";
+    background-attachment: fixed;
+  }
+  
+  li {
+    display: inline;
+    width: 5cm;
+  }
+  
+  h1 {
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(235, 111, 200);
+  }
+  
+  footer {
+    text-align: center;
+    background-color: rgba(34, 89, 98, 0.389);
+    border-radius: 25px;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 1%;
+    width: 100%;
+  }
+  
+  .redesSociales {
+    text-align: right;
+    margin-right: 2%;
+  }
+
+  
+.articulo {
+    margin-left: 5%;
+    margin-right: 5%;
+  
+  }
+
+  
+.cartelesP {
+    margin-top: 5%;
+    text-align: center;
+    height: 75%;
+    width: 90%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .cartel {
+    height: 55%;
+    background-color: rgba(235, 111, 200);
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 255, 0.304));
+    padding: 7px;
+    margin-bottom: 10%;
+  }
+
+  
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  .row::after {
+    clear:both;
+    display: table;
+  }
+
+  
+  
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(137, 20, 146);
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(204, 88, 204);
+    border-radius: 10px;
+  }
